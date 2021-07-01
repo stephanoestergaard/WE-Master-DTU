@@ -1,0 +1,1789 @@
+// Date/Time Created:	26-06-2021-10:53:34
+
+// Load case:	1
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	1
+// Wave Name:	Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10001
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 6.3
+WaveTp = 11.5
+WaveSeed = 10001
+
+// Wind Data
+// Wind Number:	1
+// Wind Name:	NTM_U4.0_SEED10001
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U4.0_SEED10001.bts'
+
+SaveData '00001_w(Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10001)_W(NTM_U4.0_SEED10001).dat'
+// Load case:	2
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	12
+// Wave Name:	Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10002
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 6.3
+WaveTp = 11.5
+WaveSeed = 10002
+
+// Wind Data
+// Wind Number:	2
+// Wind Name:	NTM_U4.0_SEED10002
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U4.0_SEED10002.bts'
+
+SaveData '00002_w(Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10002)_W(NTM_U4.0_SEED10002).dat'
+// Load case:	3
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	23
+// Wave Name:	Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10003
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 6.3
+WaveTp = 11.5
+WaveSeed = 10003
+
+// Wind Data
+// Wind Number:	3
+// Wind Name:	NTM_U4.0_SEED10003
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U4.0_SEED10003.bts'
+
+SaveData '00003_w(Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10003)_W(NTM_U4.0_SEED10003).dat'
+// Load case:	4
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	34
+// Wave Name:	Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10004
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 6.3
+WaveTp = 11.5
+WaveSeed = 10004
+
+// Wind Data
+// Wind Number:	4
+// Wind Name:	NTM_U4.0_SEED10004
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U4.0_SEED10004.bts'
+
+SaveData '00004_w(Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10004)_W(NTM_U4.0_SEED10004).dat'
+// Load case:	5
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	45
+// Wave Name:	Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10005
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 6.3
+WaveTp = 11.5
+WaveSeed = 10005
+
+// Wind Data
+// Wind Number:	5
+// Wind Name:	NTM_U4.0_SEED10005
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U4.0_SEED10005.bts'
+
+SaveData '00005_w(Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10005)_W(NTM_U4.0_SEED10005).dat'
+// Load case:	6
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	56
+// Wave Name:	Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10006
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 6.3
+WaveTp = 11.5
+WaveSeed = 10006
+
+// Wind Data
+// Wind Number:	6
+// Wind Name:	NTM_U4.0_SEED10006
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U4.0_SEED10006.bts'
+
+SaveData '00006_w(Irreg_DIR000_Hs6.3_Tp11.5_U04_SEED10006)_W(NTM_U4.0_SEED10006).dat'
+// Load case:	7
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	2
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10001
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10001
+
+// Wind Data
+// Wind Number:	7
+// Wind Name:	NTM_U6.0_SEED10001
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U6.0_SEED10001.bts'
+
+SaveData '00007_w(Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10001)_W(NTM_U6.0_SEED10001).dat'
+// Load case:	8
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	13
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10002
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10002
+
+// Wind Data
+// Wind Number:	8
+// Wind Name:	NTM_U6.0_SEED10002
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U6.0_SEED10002.bts'
+
+SaveData '00008_w(Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10002)_W(NTM_U6.0_SEED10002).dat'
+// Load case:	9
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	24
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10003
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10003
+
+// Wind Data
+// Wind Number:	9
+// Wind Name:	NTM_U6.0_SEED10003
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U6.0_SEED10003.bts'
+
+SaveData '00009_w(Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10003)_W(NTM_U6.0_SEED10003).dat'
+// Load case:	10
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	35
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10004
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10004
+
+// Wind Data
+// Wind Number:	10
+// Wind Name:	NTM_U6.0_SEED10004
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U6.0_SEED10004.bts'
+
+SaveData '00010_w(Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10004)_W(NTM_U6.0_SEED10004).dat'
+// Load case:	11
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	46
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10005
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10005
+
+// Wind Data
+// Wind Number:	11
+// Wind Name:	NTM_U6.0_SEED10005
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U6.0_SEED10005.bts'
+
+SaveData '00011_w(Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10005)_W(NTM_U6.0_SEED10005).dat'
+// Load case:	12
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	57
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10006
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10006
+
+// Wind Data
+// Wind Number:	12
+// Wind Name:	NTM_U6.0_SEED10006
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U6.0_SEED10006.bts'
+
+SaveData '00012_w(Irreg_DIR000_Hs8.0_Tp12.7_U06_SEED10006)_W(NTM_U6.0_SEED10006).dat'
+// Load case:	13
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	3
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10001
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10001
+
+// Wind Data
+// Wind Number:	13
+// Wind Name:	NTM_U8.0_SEED10001
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U8.0_SEED10001.bts'
+
+SaveData '00013_w(Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10001)_W(NTM_U8.0_SEED10001).dat'
+// Load case:	14
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	14
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10002
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10002
+
+// Wind Data
+// Wind Number:	14
+// Wind Name:	NTM_U8.0_SEED10002
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U8.0_SEED10002.bts'
+
+SaveData '00014_w(Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10002)_W(NTM_U8.0_SEED10002).dat'
+// Load case:	15
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	25
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10003
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10003
+
+// Wind Data
+// Wind Number:	15
+// Wind Name:	NTM_U8.0_SEED10003
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U8.0_SEED10003.bts'
+
+SaveData '00015_w(Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10003)_W(NTM_U8.0_SEED10003).dat'
+
+// Load case:	16
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	36
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10004
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10004
+
+// Wind Data
+// Wind Number:	16
+// Wind Name:	NTM_U8.0_SEED10004
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U8.0_SEED10004.bts'
+
+SaveData '00016_w(Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10004)_W(NTM_U8.0_SEED10004).dat'
+// Load case:	17
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	47
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10005
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10005
+
+// Wind Data
+// Wind Number:	17
+// Wind Name:	NTM_U8.0_SEED10005
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U8.0_SEED10005.bts'
+
+SaveData '00017_w(Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10005)_W(NTM_U8.0_SEED10005).dat'
+// Load case:	18
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	58
+// Wave Name:	Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10006
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8
+WaveTp = 12.7
+WaveSeed = 10006
+
+// Wind Data
+// Wind Number:	18
+// Wind Name:	NTM_U8.0_SEED10006
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U8.0_SEED10006.bts'
+
+SaveData '00018_w(Irreg_DIR000_Hs8.0_Tp12.7_U08_SEED10006)_W(NTM_U8.0_SEED10006).dat'
+// Load case:	19
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	4
+// Wave Name:	Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10001
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.1
+WaveTp = 12.8
+WaveSeed = 10001
+
+// Wind Data
+// Wind Number:	19
+// Wind Name:	NTM_U10.0_SEED10001
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U10.0_SEED10001.bts'
+
+SaveData '00019_w(Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10001)_W(NTM_U10.0_SEED10001).dat'
+// Load case:	20
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	15
+// Wave Name:	Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10002
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.1
+WaveTp = 12.8
+WaveSeed = 10002
+
+// Wind Data
+// Wind Number:	20
+// Wind Name:	NTM_U10.0_SEED10002
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U10.0_SEED10002.bts'
+
+SaveData '00020_w(Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10002)_W(NTM_U10.0_SEED10002).dat'
+// Load case:	21
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	26
+// Wave Name:	Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10003
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.1
+WaveTp = 12.8
+WaveSeed = 10003
+
+// Wind Data
+// Wind Number:	21
+// Wind Name:	NTM_U10.0_SEED10003
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U10.0_SEED10003.bts'
+
+SaveData '00021_w(Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10003)_W(NTM_U10.0_SEED10003).dat'
+// Load case:	22
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	37
+// Wave Name:	Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10004
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.1
+WaveTp = 12.8
+WaveSeed = 10004
+
+// Wind Data
+// Wind Number:	22
+// Wind Name:	NTM_U10.0_SEED10004
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U10.0_SEED10004.bts'
+
+SaveData '00022_w(Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10004)_W(NTM_U10.0_SEED10004).dat'
+// Load case:	23
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	48
+// Wave Name:	Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10005
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.1
+WaveTp = 12.8
+WaveSeed = 10005
+
+// Wind Data
+// Wind Number:	23
+// Wind Name:	NTM_U10.0_SEED10005
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U10.0_SEED10005.bts'
+
+SaveData '00023_w(Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10005)_W(NTM_U10.0_SEED10005).dat'
+// Load case:	24
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	59
+// Wave Name:	Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10006
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.1
+WaveTp = 12.8
+WaveSeed = 10006
+
+// Wind Data
+// Wind Number:	24
+// Wind Name:	NTM_U10.0_SEED10006
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U10.0_SEED10006.bts'
+
+SaveData '00024_w(Irreg_DIR000_Hs8.1_Tp12.8_U10_SEED10006)_W(NTM_U10.0_SEED10006).dat'
+// Load case:	25
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	5
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10001
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10001
+
+// Wind Data
+// Wind Number:	25
+// Wind Name:	NTM_U12.0_SEED10001
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U12.0_SEED10001.bts'
+
+SaveData '00025_w(Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10001)_W(NTM_U12.0_SEED10001).dat'
+// Load case:	26
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	16
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10002
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10002
+
+// Wind Data
+// Wind Number:	26
+// Wind Name:	NTM_U12.0_SEED10002
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U12.0_SEED10002.bts'
+
+SaveData '00026_w(Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10002)_W(NTM_U12.0_SEED10002).dat'
+// Load case:	27
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	27
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10003
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10003
+
+// Wind Data
+// Wind Number:	27
+// Wind Name:	NTM_U12.0_SEED10003
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U12.0_SEED10003.bts'
+
+SaveData '00027_w(Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10003)_W(NTM_U12.0_SEED10003).dat'
+// Load case:	28
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	38
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10004
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10004
+
+// Wind Data
+// Wind Number:	28
+// Wind Name:	NTM_U12.0_SEED10004
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U12.0_SEED10004.bts'
+
+SaveData '00028_w(Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10004)_W(NTM_U12.0_SEED10004).dat'
+// Load case:	29
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	49
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10005
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10005
+
+// Wind Data
+// Wind Number:	29
+// Wind Name:	NTM_U12.0_SEED10005
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U12.0_SEED10005.bts'
+
+SaveData '00029_w(Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10005)_W(NTM_U12.0_SEED10005).dat'
+// Load case:	30
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	60
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10006
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10006
+
+// Wind Data
+// Wind Number:	30
+// Wind Name:	NTM_U12.0_SEED10006
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U12.0_SEED10006.bts'
+
+SaveData '00030_w(Irreg_DIR000_Hs8.5_Tp13.1_U12_SEED10006)_W(NTM_U12.0_SEED10006).dat'
+
+// Load case:	31
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	6
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10001
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10001
+
+// Wind Data
+// Wind Number:	31
+// Wind Name:	NTM_U14.0_SEED10001
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U14.0_SEED10001.bts'
+
+SaveData '00031_w(Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10001)_W(NTM_U14.0_SEED10001).dat'
+// Load case:	32
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	17
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10002
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10002
+
+// Wind Data
+// Wind Number:	32
+// Wind Name:	NTM_U14.0_SEED10002
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U14.0_SEED10002.bts'
+
+SaveData '00032_w(Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10002)_W(NTM_U14.0_SEED10002).dat'
+// Load case:	33
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	28
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10003
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10003
+
+// Wind Data
+// Wind Number:	33
+// Wind Name:	NTM_U14.0_SEED10003
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U14.0_SEED10003.bts'
+
+SaveData '00033_w(Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10003)_W(NTM_U14.0_SEED10003).dat'
+// Load case:	34
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	39
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10004
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10004
+
+// Wind Data
+// Wind Number:	34
+// Wind Name:	NTM_U14.0_SEED10004
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U14.0_SEED10004.bts'
+
+SaveData '00034_w(Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10004)_W(NTM_U14.0_SEED10004).dat'
+// Load case:	35
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	50
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10005
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10005
+
+// Wind Data
+// Wind Number:	35
+// Wind Name:	NTM_U14.0_SEED10005
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U14.0_SEED10005.bts'
+
+SaveData '00035_w(Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10005)_W(NTM_U14.0_SEED10005).dat'
+// Load case:	36
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	61
+// Wave Name:	Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10006
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 8.5
+WaveTp = 13.1
+WaveSeed = 10006
+
+// Wind Data
+// Wind Number:	36
+// Wind Name:	NTM_U14.0_SEED10006
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U14.0_SEED10006.bts'
+
+SaveData '00036_w(Irreg_DIR000_Hs8.5_Tp13.1_U14_SEED10006)_W(NTM_U14.0_SEED10006).dat'
+// Load case:	37
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	7
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10001
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10001
+
+// Wind Data
+// Wind Number:	37
+// Wind Name:	NTM_U16.0_SEED10001
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U16.0_SEED10001.bts'
+
+SaveData '00037_w(Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10001)_W(NTM_U16.0_SEED10001).dat'
+// Load case:	38
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	18
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10002
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10002
+
+// Wind Data
+// Wind Number:	38
+// Wind Name:	NTM_U16.0_SEED10002
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U16.0_SEED10002.bts'
+
+SaveData '00038_w(Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10002)_W(NTM_U16.0_SEED10002).dat'
+// Load case:	39
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	29
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10003
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10003
+
+// Wind Data
+// Wind Number:	39
+// Wind Name:	NTM_U16.0_SEED10003
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U16.0_SEED10003.bts'
+
+SaveData '00039_w(Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10003)_W(NTM_U16.0_SEED10003).dat'
+// Load case:	40
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	40
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10004
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10004
+
+// Wind Data
+// Wind Number:	40
+// Wind Name:	NTM_U16.0_SEED10004
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U16.0_SEED10004.bts'
+
+SaveData '00040_w(Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10004)_W(NTM_U16.0_SEED10004).dat'
+// Load case:	41
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	51
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10005
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10005
+
+// Wind Data
+// Wind Number:	41
+// Wind Name:	NTM_U16.0_SEED10005
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U16.0_SEED10005.bts'
+
+SaveData '00041_w(Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10005)_W(NTM_U16.0_SEED10005).dat'
+// Load case:	42
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	62
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10006
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10006
+
+// Wind Data
+// Wind Number:	42
+// Wind Name:	NTM_U16.0_SEED10006
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U16.0_SEED10006.bts'
+
+SaveData '00042_w(Irreg_DIR000_Hs9.8_Tp14.1_U16_SEED10006)_W(NTM_U16.0_SEED10006).dat'
+// Load case:	43
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	8
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10001
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10001
+
+// Wind Data
+// Wind Number:	43
+// Wind Name:	NTM_U18.0_SEED10001
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U18.0_SEED10001.bts'
+
+SaveData '00043_w(Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10001)_W(NTM_U18.0_SEED10001).dat'
+// Load case:	44
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	19
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10002
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10002
+
+// Wind Data
+// Wind Number:	44
+// Wind Name:	NTM_U18.0_SEED10002
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U18.0_SEED10002.bts'
+
+SaveData '00044_w(Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10002)_W(NTM_U18.0_SEED10002).dat'
+// Load case:	45
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	30
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10003
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10003
+
+// Wind Data
+// Wind Number:	45
+// Wind Name:	NTM_U18.0_SEED10003
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U18.0_SEED10003.bts'
+
+SaveData '00045_w(Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10003)_W(NTM_U18.0_SEED10003).dat'
+
+// Load case:	46
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	41
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10004
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10004
+
+// Wind Data
+// Wind Number:	46
+// Wind Name:	NTM_U18.0_SEED10004
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U18.0_SEED10004.bts'
+
+SaveData '00046_w(Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10004)_W(NTM_U18.0_SEED10004).dat'
+// Load case:	47
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	52
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10005
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10005
+
+// Wind Data
+// Wind Number:	47
+// Wind Name:	NTM_U18.0_SEED10005
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U18.0_SEED10005.bts'
+
+SaveData '00047_w(Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10005)_W(NTM_U18.0_SEED10005).dat'
+// Load case:	48
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	63
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10006
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10006
+
+// Wind Data
+// Wind Number:	48
+// Wind Name:	NTM_U18.0_SEED10006
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U18.0_SEED10006.bts'
+
+SaveData '00048_w(Irreg_DIR000_Hs9.8_Tp14.1_U18_SEED10006)_W(NTM_U18.0_SEED10006).dat'
+// Load case:	49
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	9
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10001
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10001
+
+// Wind Data
+// Wind Number:	49
+// Wind Name:	NTM_U20.0_SEED10001
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U20.0_SEED10001.bts'
+
+SaveData '00049_w(Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10001)_W(NTM_U20.0_SEED10001).dat'
+// Load case:	50
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	20
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10002
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10002
+
+// Wind Data
+// Wind Number:	50
+// Wind Name:	NTM_U20.0_SEED10002
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U20.0_SEED10002.bts'
+
+SaveData '00050_w(Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10002)_W(NTM_U20.0_SEED10002).dat'
+// Load case:	51
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	31
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10003
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10003
+
+// Wind Data
+// Wind Number:	51
+// Wind Name:	NTM_U20.0_SEED10003
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U20.0_SEED10003.bts'
+
+SaveData '00051_w(Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10003)_W(NTM_U20.0_SEED10003).dat'
+// Load case:	52
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	42
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10004
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10004
+
+// Wind Data
+// Wind Number:	52
+// Wind Name:	NTM_U20.0_SEED10004
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U20.0_SEED10004.bts'
+
+SaveData '00052_w(Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10004)_W(NTM_U20.0_SEED10004).dat'
+// Load case:	53
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	53
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10005
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10005
+
+// Wind Data
+// Wind Number:	53
+// Wind Name:	NTM_U20.0_SEED10005
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U20.0_SEED10005.bts'
+
+SaveData '00053_w(Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10005)_W(NTM_U20.0_SEED10005).dat'
+// Load case:	54
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	64
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10006
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10006
+
+// Wind Data
+// Wind Number:	54
+// Wind Name:	NTM_U20.0_SEED10006
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U20.0_SEED10006.bts'
+
+SaveData '00054_w(Irreg_DIR000_Hs9.8_Tp14.1_U20_SEED10006)_W(NTM_U20.0_SEED10006).dat'
+// Load case:	55
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	10
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10001
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10001
+
+// Wind Data
+// Wind Number:	55
+// Wind Name:	NTM_U22.0_SEED10001
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U22.0_SEED10001.bts'
+
+SaveData '00055_w(Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10001)_W(NTM_U22.0_SEED10001).dat'
+// Load case:	56
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	21
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10002
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10002
+
+// Wind Data
+// Wind Number:	56
+// Wind Name:	NTM_U22.0_SEED10002
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U22.0_SEED10002.bts'
+
+SaveData '00056_w(Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10002)_W(NTM_U22.0_SEED10002).dat'
+// Load case:	57
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	32
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10003
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10003
+
+// Wind Data
+// Wind Number:	57
+// Wind Name:	NTM_U22.0_SEED10003
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U22.0_SEED10003.bts'
+
+SaveData '00057_w(Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10003)_W(NTM_U22.0_SEED10003).dat'
+// Load case:	58
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	43
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10004
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10004
+
+// Wind Data
+// Wind Number:	58
+// Wind Name:	NTM_U22.0_SEED10004
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U22.0_SEED10004.bts'
+
+SaveData '00058_w(Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10004)_W(NTM_U22.0_SEED10004).dat'
+// Load case:	59
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	54
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10005
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10005
+
+// Wind Data
+// Wind Number:	59
+// Wind Name:	NTM_U22.0_SEED10005
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U22.0_SEED10005.bts'
+
+SaveData '00059_w(Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10005)_W(NTM_U22.0_SEED10005).dat'
+// Load case:	60
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	65
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10006
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10006
+
+// Wind Data
+// Wind Number:	60
+// Wind Name:	NTM_U22.0_SEED10006
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U22.0_SEED10006.bts'
+
+SaveData '00060_w(Irreg_DIR000_Hs9.8_Tp14.1_U22_SEED10006)_W(NTM_U22.0_SEED10006).dat'
+
+// Load case:	61
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	11
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10001
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10001
+
+// Wind Data
+// Wind Number:	61
+// Wind Name:	NTM_U24.0_SEED10001
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U24.0_SEED10001.bts'
+
+SaveData '00061_w(Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10001)_W(NTM_U24.0_SEED10001).dat'
+// Load case:	62
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	22
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10002
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10002
+
+// Wind Data
+// Wind Number:	62
+// Wind Name:	NTM_U24.0_SEED10002
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U24.0_SEED10002.bts'
+
+SaveData '00062_w(Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10002)_W(NTM_U24.0_SEED10002).dat'
+// Load case:	63
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	33
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10003
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10003
+
+// Wind Data
+// Wind Number:	63
+// Wind Name:	NTM_U24.0_SEED10003
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U24.0_SEED10003.bts'
+
+SaveData '00063_w(Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10003)_W(NTM_U24.0_SEED10003).dat'
+// Load case:	64
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	44
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10004
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10004
+
+// Wind Data
+// Wind Number:	64
+// Wind Name:	NTM_U24.0_SEED10004
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U24.0_SEED10004.bts'
+
+SaveData '00064_w(Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10004)_W(NTM_U24.0_SEED10004).dat'
+// Load case:	65
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	55
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10005
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10005
+
+// Wind Data
+// Wind Number:	65
+// Wind Name:	NTM_U24.0_SEED10005
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U24.0_SEED10005.bts'
+
+SaveData '00065_w(Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10005)_W(NTM_U24.0_SEED10005).dat'
+// Load case:	66
+
+LoadData 'Base_15MW_FOWT_RWT_20210619.dat'
+
+// Wave Data
+// Wave Number:	66
+// Wave Name:	Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10006
+// Wave Type:	JONSWAP
+Select Environment
+WaveName[1] = Wave1
+WaveType = "JONSWAP"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveGamma = 2.75
+WaveHs = 9.8
+WaveTp = 14.1
+WaveSeed = 10006
+
+// Wind Data
+// Wind Number:	66
+// Wind Name:	NTM_U24.0_SEED10006
+WindType = 'Full field'
+WindFullFieldFileName = 'D:\100 - Project files\01 - Data\01 - Wind\01 - TurbSim v2.0\04 - NTM - Rev03\IEA15MW_IEC_NTM_U24.0_SEED10006.bts'
+
+SaveData '00066_w(Irreg_DIR000_Hs9.8_Tp14.1_U24_SEED10006)_W(NTM_U24.0_SEED10006).dat'
+
