@@ -1,0 +1,132 @@
+{
+    "RootMxb1": [
+        "Root connection Ey moment",
+        "15MW RWT",
+        "OrcFxAPI.oeTurbine(1)"
+    ],
+    "RootMyb1": [
+        "Root connection Ex moment",
+        "15MW RWT",
+        "OrcFxAPI.oeTurbine(1)"
+    ],
+    "RootMzb1": [
+        "Root connection Ez moment",
+        "15MW RWT",
+        "OrcFxAPI.oeTurbine(1)"
+    ],
+    "TipDxb1": [
+        "In plane deflection",
+        "15MW RWT",
+        "OrcFxAPI.oeTurbineEndB(1)"
+    ],
+    "TipDyb1": [
+        "Out of plane deflection",
+        "15MW RWT",
+        "OrcFxAPI.oeTurbineEndB(1)"
+    ],
+    "NcIMUTAxs": [
+        "GX acceleration",
+        "15MW RWT",
+        "None"
+    ],
+    "NcIMUTAys": [
+        "GY acceleration",
+        "15MW RWT",
+        "None"
+    ],
+    "NcIMUTAzs": [
+        "GZ acceleration",
+        "15MW RWT",
+        "None"
+    ],
+    "YawBrTDxt": [
+        "Dynamic x",
+        "Tower",
+        "OrcFxAPI.oeEndA"
+    ],
+    "YawBrTDyt": [
+        "Dynamic y",
+        "Tower",
+        "OrcFxAPI.oeEndA"
+    ],
+    "TwrBsMxt": [
+        "x bend moment",
+        "Tower",
+        "OrcFxAPI.oeEndB"
+    ],
+    "TwrBsMyt": [
+        "y bend moment",
+        "Tower",
+        "OrcFxAPI.oeEndB"
+    ],
+    "PtfmSurge": [
+        "Primary X",
+        "Floater",
+        "OrcFxAPI.oeVessel(0.0, 0.0, 0.0)"
+    ],
+    "PtfmHeave": [
+        "Primary Z",
+        "Floater",
+        "OrcFxAPI.oeVessel(0.0, 0.0, 0.0)"
+    ],
+    "PtfmPitch": [
+        "Primary rotation 2",
+        "Floater",
+        "OrcFxAPI.oeVessel(0.0, 0.0, 0.0)"
+    ],
+    "FAIRTEN1": [
+        "Effective tension",
+        "Mooring1",
+        "OrcFxAPI.oeEndA"
+    ],
+    "FAIRTEN2": [
+        "Effective tension",
+        "Mooring2",
+        "OrcFxAPI.oeEndA"
+    ],
+    "FAIRTEN3": [
+        "Effective tension",
+        "Mooring3",
+        "OrcFxAPI.oeEndA"
+    ],
+    "ANCHTEN1": [
+        "Effective tension",
+        "Mooring1",
+        "OrcFxAPI.oeEndB"
+    ],
+    "ANCHTEN2": [
+        "Effective tension",
+        "Mooring2",
+        "OrcFxAPI.oeEndB"
+    ],
+    "ANCHTEN3": [
+        "Effective tension",
+        "Mooring3",
+        "OrcFxAPI.oeEndB"
+    ],
+    "Blade pitch1": [
+        "Blade pitch",
+        "15MW RWT",
+        "OrcFxAPI.oeTurbine(1)"
+    ],
+    "Generator power": [
+        "Generator power (96.55%)",
+        "15MW RWT",
+        "None"
+    ],
+    "Generator torque": [
+        "Generator torque",
+        "15MW RWT",
+        "None"
+    ],
+    "Rotor thrust": [
+        "Rotor aero Lz force",
+        "15MW RWT",
+        "None"
+    ],
+    "Rotor ang. vel.": [
+        "Rotor ang. vel.",
+        "15MW RWT",
+        "None"
+    ]
+}

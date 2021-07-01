@@ -1,0 +1,1954 @@
+// Date/Time Created:	21-06-2021-10:32:05
+
+// Load case:	1
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	1
+// Wind Name:	U3.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 3.0
+WindTimeHistoryDataSpeed[3] = 3.0
+
+SaveData '00001_w(None)_W(U3.0000_Steady).dat'
+// Load case:	2
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	2
+// Wind Name:	U3.5000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 3.5
+WindTimeHistoryDataSpeed[3] = 3.5
+
+SaveData '00002_w(None)_W(U3.5000_Steady).dat'
+// Load case:	3
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	3
+// Wind Name:	U4.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 4.0
+WindTimeHistoryDataSpeed[3] = 4.0
+
+SaveData '00003_w(None)_W(U4.0000_Steady).dat'
+// Load case:	4
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	4
+// Wind Name:	U4.5000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 4.5
+WindTimeHistoryDataSpeed[3] = 4.5
+
+SaveData '00004_w(None)_W(U4.5000_Steady).dat'
+// Load case:	5
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	5
+// Wind Name:	U4.7500_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 4.8
+WindTimeHistoryDataSpeed[3] = 4.8
+
+SaveData '00005_w(None)_W(U4.7500_Steady).dat'
+// Load case:	6
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	6
+// Wind Name:	U5.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 5.0
+WindTimeHistoryDataSpeed[3] = 5.0
+
+SaveData '00006_w(None)_W(U5.0000_Steady).dat'
+// Load case:	7
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	7
+// Wind Name:	U5.2500_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 5.2
+WindTimeHistoryDataSpeed[3] = 5.2
+
+SaveData '00007_w(None)_W(U5.2500_Steady).dat'
+// Load case:	8
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	8
+// Wind Name:	U6.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.0
+WindTimeHistoryDataSpeed[3] = 6.0
+
+SaveData '00008_w(None)_W(U6.0000_Steady).dat'
+// Load case:	9
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	9
+// Wind Name:	U6.2000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.2
+WindTimeHistoryDataSpeed[3] = 6.2
+
+SaveData '00009_w(None)_W(U6.2000_Steady).dat'
+// Load case:	10
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	10
+// Wind Name:	U6.4000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.4
+WindTimeHistoryDataSpeed[3] = 6.4
+
+SaveData '00010_w(None)_W(U6.4000_Steady).dat'
+// Load case:	11
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	11
+// Wind Name:	U6.5000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.5
+WindTimeHistoryDataSpeed[3] = 6.5
+
+SaveData '00011_w(None)_W(U6.5000_Steady).dat'
+// Load case:	12
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	12
+// Wind Name:	U6.5500_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.6
+WindTimeHistoryDataSpeed[3] = 6.6
+
+SaveData '00012_w(None)_W(U6.5500_Steady).dat'
+// Load case:	13
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	13
+// Wind Name:	U6.6000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.6
+WindTimeHistoryDataSpeed[3] = 6.6
+
+SaveData '00013_w(None)_W(U6.6000_Steady).dat'
+// Load case:	14
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	14
+// Wind Name:	U6.7000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.7
+WindTimeHistoryDataSpeed[3] = 6.7
+
+SaveData '00014_w(None)_W(U6.7000_Steady).dat'
+
+// Load case:	15
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	15
+// Wind Name:	U6.8000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.8
+WindTimeHistoryDataSpeed[3] = 6.8
+
+SaveData '00015_w(None)_W(U6.8000_Steady).dat'
+// Load case:	16
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	16
+// Wind Name:	U6.9000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.9
+WindTimeHistoryDataSpeed[3] = 6.9
+
+SaveData '00016_w(None)_W(U6.9000_Steady).dat'
+// Load case:	17
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	17
+// Wind Name:	U6.9200_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.9
+WindTimeHistoryDataSpeed[3] = 6.9
+
+SaveData '00017_w(None)_W(U6.9200_Steady).dat'
+// Load case:	18
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	18
+// Wind Name:	U6.9300_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.9
+WindTimeHistoryDataSpeed[3] = 6.9
+
+SaveData '00018_w(None)_W(U6.9300_Steady).dat'
+// Load case:	19
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	19
+// Wind Name:	U6.9400_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 6.9
+WindTimeHistoryDataSpeed[3] = 6.9
+
+SaveData '00019_w(None)_W(U6.9400_Steady).dat'
+// Load case:	20
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	20
+// Wind Name:	U6.9500_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 7.0
+WindTimeHistoryDataSpeed[3] = 7.0
+
+SaveData '00020_w(None)_W(U6.9500_Steady).dat'
+// Load case:	21
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	21
+// Wind Name:	U6.9600_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 7.0
+WindTimeHistoryDataSpeed[3] = 7.0
+
+SaveData '00021_w(None)_W(U6.9600_Steady).dat'
+// Load case:	22
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	22
+// Wind Name:	U6.9700_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 7.0
+WindTimeHistoryDataSpeed[3] = 7.0
+
+SaveData '00022_w(None)_W(U6.9700_Steady).dat'
+// Load case:	23
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	23
+// Wind Name:	U6.9800_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 7.0
+WindTimeHistoryDataSpeed[3] = 7.0
+
+SaveData '00023_w(None)_W(U6.9800_Steady).dat'
+// Load case:	24
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	24
+// Wind Name:	U6.9900_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 7.0
+WindTimeHistoryDataSpeed[3] = 7.0
+
+SaveData '00024_w(None)_W(U6.9900_Steady).dat'
+// Load case:	25
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	25
+// Wind Name:	U7.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 7.0
+WindTimeHistoryDataSpeed[3] = 7.0
+
+SaveData '00025_w(None)_W(U7.0000_Steady).dat'
+// Load case:	26
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	26
+// Wind Name:	U7.5000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 7.5
+WindTimeHistoryDataSpeed[3] = 7.5
+
+SaveData '00026_w(None)_W(U7.5000_Steady).dat'
+// Load case:	27
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	27
+// Wind Name:	U8.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 8.0
+WindTimeHistoryDataSpeed[3] = 8.0
+
+SaveData '00027_w(None)_W(U8.0000_Steady).dat'
+// Load case:	28
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	28
+// Wind Name:	U8.5000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 8.5
+WindTimeHistoryDataSpeed[3] = 8.5
+
+SaveData '00028_w(None)_W(U8.5000_Steady).dat'
+
+// Load case:	29
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	29
+// Wind Name:	U9.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 9.0
+WindTimeHistoryDataSpeed[3] = 9.0
+
+SaveData '00029_w(None)_W(U9.0000_Steady).dat'
+// Load case:	30
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	30
+// Wind Name:	U9.5000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 9.5
+WindTimeHistoryDataSpeed[3] = 9.5
+
+SaveData '00030_w(None)_W(U9.5000_Steady).dat'
+// Load case:	31
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	31
+// Wind Name:	U10.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.0
+WindTimeHistoryDataSpeed[3] = 10.0
+
+SaveData '00031_w(None)_W(U10.0000_Steady).dat'
+// Load case:	32
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	32
+// Wind Name:	U10.2500_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.2
+WindTimeHistoryDataSpeed[3] = 10.2
+
+SaveData '00032_w(None)_W(U10.2500_Steady).dat'
+// Load case:	33
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	33
+// Wind Name:	U10.5000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.5
+WindTimeHistoryDataSpeed[3] = 10.5
+
+SaveData '00033_w(None)_W(U10.5000_Steady).dat'
+// Load case:	34
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	34
+// Wind Name:	U10.6000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.6
+WindTimeHistoryDataSpeed[3] = 10.6
+
+SaveData '00034_w(None)_W(U10.6000_Steady).dat'
+// Load case:	35
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	35
+// Wind Name:	U10.7000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.7
+WindTimeHistoryDataSpeed[3] = 10.7
+
+SaveData '00035_w(None)_W(U10.7000_Steady).dat'
+// Load case:	36
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	36
+// Wind Name:	U10.7200_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.7
+WindTimeHistoryDataSpeed[3] = 10.7
+
+SaveData '00036_w(None)_W(U10.7200_Steady).dat'
+// Load case:	37
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	37
+// Wind Name:	U10.7400_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.7
+WindTimeHistoryDataSpeed[3] = 10.7
+
+SaveData '00037_w(None)_W(U10.7400_Steady).dat'
+// Load case:	38
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	38
+// Wind Name:	U10.7600_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.8
+WindTimeHistoryDataSpeed[3] = 10.8
+
+SaveData '00038_w(None)_W(U10.7600_Steady).dat'
+// Load case:	39
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	39
+// Wind Name:	U10.7800_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.8
+WindTimeHistoryDataSpeed[3] = 10.8
+
+SaveData '00039_w(None)_W(U10.7800_Steady).dat'
+// Load case:	40
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	40
+// Wind Name:	U10.7840_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.8
+WindTimeHistoryDataSpeed[3] = 10.8
+
+SaveData '00040_w(None)_W(U10.7840_Steady).dat'
+// Load case:	41
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	41
+// Wind Name:	U10.7860_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.8
+WindTimeHistoryDataSpeed[3] = 10.8
+
+SaveData '00041_w(None)_W(U10.7860_Steady).dat'
+// Load case:	42
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	42
+// Wind Name:	U10.7870_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.8
+WindTimeHistoryDataSpeed[3] = 10.8
+
+SaveData '00042_w(None)_W(U10.7870_Steady).dat'
+
+// Load case:	43
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	43
+// Wind Name:	U10.7880_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.8
+WindTimeHistoryDataSpeed[3] = 10.8
+
+SaveData '00043_w(None)_W(U10.7880_Steady).dat'
+// Load case:	44
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	44
+// Wind Name:	U10.7890_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.8
+WindTimeHistoryDataSpeed[3] = 10.8
+
+SaveData '00044_w(None)_W(U10.7890_Steady).dat'
+// Load case:	45
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	45
+// Wind Name:	U10.7895_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.8
+WindTimeHistoryDataSpeed[3] = 10.8
+
+SaveData '00045_w(None)_W(U10.7895_Steady).dat'
+// Load case:	46
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	46
+// Wind Name:	U10.8000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.8
+WindTimeHistoryDataSpeed[3] = 10.8
+
+SaveData '00046_w(None)_W(U10.8000_Steady).dat'
+// Load case:	47
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	47
+// Wind Name:	U10.9000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 10.9
+WindTimeHistoryDataSpeed[3] = 10.9
+
+SaveData '00047_w(None)_W(U10.9000_Steady).dat'
+// Load case:	48
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	48
+// Wind Name:	U11.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 11.0
+WindTimeHistoryDataSpeed[3] = 11.0
+
+SaveData '00048_w(None)_W(U11.0000_Steady).dat'
+// Load case:	49
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	49
+// Wind Name:	U11.2500_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 11.2
+WindTimeHistoryDataSpeed[3] = 11.2
+
+SaveData '00049_w(None)_W(U11.2500_Steady).dat'
+// Load case:	50
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	50
+// Wind Name:	U11.5000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 11.5
+WindTimeHistoryDataSpeed[3] = 11.5
+
+SaveData '00050_w(None)_W(U11.5000_Steady).dat'
+// Load case:	51
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	51
+// Wind Name:	U11.7500_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 11.8
+WindTimeHistoryDataSpeed[3] = 11.8
+
+SaveData '00051_w(None)_W(U11.7500_Steady).dat'
+// Load case:	52
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	52
+// Wind Name:	U12.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 12.0
+WindTimeHistoryDataSpeed[3] = 12.0
+
+SaveData '00052_w(None)_W(U12.0000_Steady).dat'
+// Load case:	53
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	53
+// Wind Name:	U13.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 13.0
+WindTimeHistoryDataSpeed[3] = 13.0
+
+SaveData '00053_w(None)_W(U13.0000_Steady).dat'
+// Load case:	54
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	54
+// Wind Name:	U14.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 14.0
+WindTimeHistoryDataSpeed[3] = 14.0
+
+SaveData '00054_w(None)_W(U14.0000_Steady).dat'
+// Load case:	55
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	55
+// Wind Name:	U15.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 15.0
+WindTimeHistoryDataSpeed[3] = 15.0
+
+SaveData '00055_w(None)_W(U15.0000_Steady).dat'
+// Load case:	56
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	56
+// Wind Name:	U17.5000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 17.5
+WindTimeHistoryDataSpeed[3] = 17.5
+
+SaveData '00056_w(None)_W(U17.5000_Steady).dat'
+
+// Load case:	57
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	57
+// Wind Name:	U20.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 20.0
+WindTimeHistoryDataSpeed[3] = 20.0
+
+SaveData '00057_w(None)_W(U20.0000_Steady).dat'
+// Load case:	58
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	58
+// Wind Name:	U22.5000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 22.5
+WindTimeHistoryDataSpeed[3] = 22.5
+
+SaveData '00058_w(None)_W(U22.5000_Steady).dat'
+// Load case:	59
+
+LoadData 'Base_15MW_FOWT_RWT_20210619_fixed.dat'
+
+// Wave Data
+// Wave Number:	67
+// Wave Name:	None
+// Wave Type:	Dean Stream
+Select Environment
+WaveName[1] = Wave1
+WaveType = "Dean Stream"
+WaveOriginX = 0
+WaveOriginY = 0
+WaveTimeOrigin = 0
+WaveDirection = 0
+WaveHeight = 0.000
+WavePeriod = 30.000
+
+// Wind Data
+// Wind Number:	59
+// Wind Name:	U25.0000_Steady
+WindType = 'Time history (speed)'
+WindSpeed = 0.0
+WindDirection = 0.0
+WindTimeHistoryDataCount = 3
+WindTimeHistoryDataTime[1] = -300.0
+WindTimeHistoryDataTime[2] = -200.0
+WindTimeHistoryDataTime[3] = 100.0
+WindTimeHistoryDataSpeed[1] = 0.0
+WindTimeHistoryDataSpeed[2] = 25.0
+WindTimeHistoryDataSpeed[3] = 25.0
+
+SaveData '00059_w(None)_W(U25.0000_Steady).dat'
+
